@@ -1,0 +1,22 @@
+{
+    "name": "liesauer/ql-plugin-simplehttpclient",
+    "description": "QueryList Plugin - SimpleHttpClient",
+    "license": "MIT",
+    "author": [
+        {
+            "name": "LiesAuer",
+            "email": "liesauer@hotmail.com",
+            "homepage": "http://www.liesauer.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "jaeger/querylist":"dev-master",
+        "liesauer/gincs":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "liesauer\\":"src/"
+        }
+    }
+}
