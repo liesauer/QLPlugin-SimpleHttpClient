@@ -14,6 +14,8 @@
         "jaeger/querylist":"dev-master",
         "liesauer/gincs":"*"
     },
+    "require-dev": {
+    },
     "autoload": {
         "psr-4": {
             "liesauer\\":"src/"
